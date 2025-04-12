@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/output.css">
     <title>Remove Background</title>
 </head>
 <body>
-    
+    <div class="w-full h-[100vh] flex items-center justify-center bg-[#f3fbff]">
+        <div class="w-[60%] m-auto leading-0 bg-[url('/images/background.png')] overflow-hidden relative">
+            <img src="/images/transparent.png" width="100%" alt="">
+            <div class="absolute left-0 top-0 overflow-hidden">
+                <img src="/images/original.jpg" width="100%" alt="">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
